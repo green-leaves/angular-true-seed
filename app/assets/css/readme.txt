@@ -1,0 +1,3 @@
+- Run grunt less to compile less > css
+- Run grunt default task or watch:less to auto compile changed less file > css
+- Prefer to write less to css for modular and reusable reason

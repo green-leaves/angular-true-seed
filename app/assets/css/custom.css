@@ -1,0 +1,184 @@
+/* app css stylesheet */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #F8F8F8;
+    font-family: Lato,Helvetica,Arial,Verdana,sans-serif;
+}
+
+.navbar-brand {
+	font-family: Monda,Lato,Helvetica,Arial,Verdana,sans-serif;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    /* height: 60px; */
+    /*background-color: #f5f5f5;*/
+}
+
+footer .navbar {
+	margin-bottom: 0;
+}
+
+.menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+}
+
+.menu:before {
+    content: "[";
+}
+
+.menu:after {
+    content: "]";
+}
+
+.menu > li {
+    display: inline;
+}
+
+.menu > li:before {
+    content: "|";
+    padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+    content: "";
+    padding: 0;
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.campaign-title {
+	color: #004FB6;
+}
+
+.campaign-link {
+    margin-top: -10px;
+}
+
+.campaign-data {
+    margin: -10px 0 5px 0;
+}
+
+.login {
+    max-width: 320px;
+    margin: 0 auto
+}
+
+.login-or {
+    position: relative;
+    font-size: 18px;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #f5f5f5;
+    width: 50px;
+    text-align: center;
+}
+.hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/*********************************************
+	-	SETTINGS FOR BANNER CONTAINERS	-
+**********************************************/
+#search{
+    display:block;
+    text-align:center;
+}
+
+.boxedcontainer {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.tp-banner-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+
+}
+
+.tp-banner {
+    width: 100%;
+    position: relative;
+}
+
+.tp-banner-fullscreen-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+/* override bootstrap affix to stick navigation bar */
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* override angular timeline css */
+
+ul.timeline li .timeline-panel {
+	width: 100%;
+}
+
+.timeline li timeline-badge {
+	z-index: 0;
+}
+
+/* override angular timeline css */
+
+.margin-bottom-xs {margin-bottom: 0.5em;}  
+.margin-bottom-sm {margin-bottom: 1em;} 
+.margin-bottom-md {margin-bottom: 1.5em;}
+.margin-bottom-lg {margin-bottom: 2em;}  
+
+.well {
+	background-color: #FFFFFF; 
+}

@@ -1,0 +1,13 @@
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+dist/
+.tmp/
+tmp
+.DS_Store
+.idea
+*.iml
+.project
+.settings/
+.tern-project
